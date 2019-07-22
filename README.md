@@ -1,6 +1,8 @@
 # First installation instructions
 
 `composer install`
+
+
 `bin/console doctrine:migrations:migrate`
 
 # Créer une nouvelle branche avant de push
@@ -15,7 +17,7 @@ Faire tous les commits nécessaire avec :
 
 `git commit -m "nom du commit"`
 
-et pour push sur la branche nouvelle créée il faut faire :
+et pour push sur la branche nouvellement créée il faut faire :
 
 `git push --set-upstream origin nomDeLaBranche`
 
