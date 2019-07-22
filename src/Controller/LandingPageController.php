@@ -2,15 +2,15 @@
 
 namespace App\Controller;
 
-use App\Form\OrderType;
-use App\Manager\OrderManager;
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Symfony\Component\Form\Form;
-use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\Form\Form;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use App\Manager\OrderManager;
+use App\Form\OrderType;
 
-class LandingPageController extends Controller
+class LandingPageController extends AbstractController
 {
     /**
      * @Route("/", name="landing_page")

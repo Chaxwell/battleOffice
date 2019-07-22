@@ -17,7 +17,7 @@ Faire tous les commits nécessaire avec :
 
 `git commit -m "nom du commit"`
 
+
 et pour push sur la branche nouvellement créée il faut faire :
 
 `git push --set-upstream origin nomDeLaBranche`
-
