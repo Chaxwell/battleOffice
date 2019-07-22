@@ -1,6 +1,8 @@
 # First installation instructions
 
 `composer install`
+
+
 `bin/console doctrine:migrations:migrate`
 
 # Créer une nouvelle branche avant de push
